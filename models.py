@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 class Profile(BaseModel):
     FIO: str
-    emai: str
+    email: str
 
     model_config = {
         "json_schema_extra": {
